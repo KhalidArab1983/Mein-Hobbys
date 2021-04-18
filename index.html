@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="de">
+<!--hier beginnt die HTML Datei-->
+
+<!--HEAD Start-->
+
+<head>
+    <meta charset="utf-8">
+    <!--IE Compatibility Meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Responsive Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custombootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 9]-->
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <!--[endif]-->
+    <title>Abo Wisam</title>
+    <link rel="icon" href="images/LogoAW.png">
+    <style>
+        body {
+            background-image: url('images/holz.jpg');
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<!--HEAD End-->
+
+<!--BODY Start-->
+
+<body>
+    <div class="container">
+        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+            <div>
+                <a href="#"><img src="images/abowisam.png" class="logo"></a>
+            </div>
+            <div>
+                <p>Email: maxname@maxemail.com, Tel: 01521/12345678</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="b-example-divider"></div>
+        <div class="row">
+            <!-- here starts header -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <!-- <img src="images/abowisam.png" class="logo">
+                    <a class="navbar-brand" href="#"></a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- here starts menu list -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"><img src="icon/house-door.svg"
+                                        width="20px">Startseite |</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html"><img src="icon/file-earmark-person-fill.svg"
+                                        width="20px">Über mich |</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="impressum.html"><img src="icon/informations.png"
+                                        width="20px">Impressum |</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="hobby.html" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false"><img src="icon/hobby.png"
+                                        width="20px">
+                                    Hobbys |
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="naehen.html">Nähen<img src="icon/Naehen 1.png"
+                                                width="30px" style="float: right;"></a></li>
+                                    <li><a class="dropdown-item" href="lesen.html">Lesen<img src="icon/buch.png"
+                                                width="30px" style="float: right;"></a></li>
+                                    <li><a class="dropdown-item" href="munzen.html">Mün. sammeln<img
+                                                src="icon/wahrung.png" width="30px" style="float: right;"></a></li>
+                                    <li><a class="dropdown-item col-lg-6" style="color: white;"
+                                            href="munzen.html">Münzen zu sammeln</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- here ends menu list -->
+                    </div>
+                </div>
+                <!-- here start social button and Offcanvas -->
+                <button class="btn btn-primary social" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" style="background-color: #0d6efd;">Social Media</button>
+
+                <div class="offcanvas offcanvas-bottom" data-bs-scroll="true" tabindex="-1" id="offcanvasBottom"
+                    aria-labelledby="offcanvasBottomLabel">
+                    <div class="offcanvas-header">
+                        <h3 class="offcanvas-title" id="offcanvasBottomLabel">Folge uns:</h3>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body small">
+                        <ul class="socialmedia">
+                            <li class="social-list"><a class="a-social" href="https://facebook.com" target="_empty"><i
+                                        class="fa fa-facebook" aria-hidden="true"><img src="icon/facebook.svg"
+                                            width="50px"></i></a></li>
+                            <li class="social-list"><a href="https://twitter.com" target="_empty" class="a-social"><i
+                                        class="fa fa-twitter" aria-hidden="true"><img src="icon/twitter.svg"
+                                            width="50px"></i></a></li>
+                            <li class="social-list"><a href="https://plus.google.com" target="_empty"
+                                    class="a-social"><i class="fa fa-google-plus" aria-hidden="true"><img
+                                            src="icon/google-plus-logo.svg" width="50px"></i></a>
+                            </li>
+                            <li class="social-list"><a href="https://de.linkedin.com" target="_empty"
+                                    class="a-social"><i class="fa fa-linkedin" aria-hidden="true"><img
+                                            src="icon/linked-in-logo-of-two-letters.svg" width="50px"></i></a></li>
+                            <li class="social-list"><a href="https://www.instagram.com" target="_empty"
+                                    class="a-social"><i class="fa fa-instagram" aria-hidden="true"><img
+                                            src="icon/instagram.svg" width="50px"></i></a></li>
+
+                            <li class="social-list"><a href="https://www.youtube.com" target="_empty"
+                                    class="a-social"><i class="fa fa-google-plus" aria-hidden="true"><img
+                                            src="icon/youtube.svg" width="50px"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- here end social button and Offcanvas -->
+
+                <!-- here starts search button -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit" style="background-color: #0d6efd; color: white;">Suche</button>
+                </form>
+                <!-- here ends search button -->
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- here ends header-->
+
+    <div class="container">
+        <div class="b-example-divider"></div>
+        <div class="row">
+            <!-- here starts slideshow -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slideshow/photo1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slideshow/photo2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slideshow/photo3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slideshow/photo2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- here ends slideshow -->
+        </div>
+    </div>
+    <div class="container">
+        <div class="b-example-divider"></div>
+        <!-- here starts section stretched link -->
+        <section class="row">
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="card" style="width: 17rem;">
+                    <img src="images/shein/Syria-1-f.jpg" class="card-img-top" alt="one Syrian Pound">
+                    <div class="card-body">
+                        <h5 class="card-title">Card with stretched link</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 17rem;">
+                    <img src="images/shein/Syria-1-f.jpg" class="card-img-top" alt="one Syrian Pound">
+                    <div class="card-body">
+                        <h5 class="card-title">Card with stretched link</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 17rem;">
+                    <img src="images/shein/Syria-1-f.jpg" class="card-img-top" alt="one Syrian Pound">
+                    <div class="card-body">
+                        <h5 class="card-title">Card with stretched link</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- here ends section stretched link -->
+    </div>
+    <div class="container">
+       
+
+    </div>
+
+
+    <!-- hier beginnt Java Script-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- hier endet Java Script-->
+</body>
+<!--BODY End-->
+
+<!--hier endet die HTML Datei-->
+
+</html>

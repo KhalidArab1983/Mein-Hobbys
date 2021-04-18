@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="de">
+<!--hier beginnt die HTML Datei-->
+
+<!--HEAD Start-->
+
+<head>
+    <meta charset="utf-8">
+    <!--IE Compatibility Meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Responsive Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custombootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- hier beginnt Java Script-->
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]-->
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <!--[endif]-->
+    <!-- hier endet Java Script-->
+
+    <title>Abo Wisam</title>
+    <link rel="icon" href="images/LogoAW.png">
+    <style>
+        body {
+            background-image: url('images/holz.jpg');
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<!--HEAD End-->
+
+<!--BODY Start-->
+
+<body>
+    <div class="container">
+        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+            <div>
+                <a href="#"><img src="images/abowisam.png" class="logo"></a>
+            </div>
+            <div>
+                <p>Email: maxname@maxemail.com, Tel: 01521/12345678</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="b-example-divider"></div>
+        <div class="row">
+            <!-- here starts header -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <!-- <img src="images/abowisam.png" class="logo">
+                    <a class="navbar-brand" href="#"></a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- here starts menu list -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html"><img src="icon/house-door.svg"
+                                        width="20px">Startseite |</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html"><img src="icon/file-earmark-person-fill.svg"
+                                        width="20px">Über mich |</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="impressum.html"><img src="icon/informations.png"
+                                        width="20px">Impressum |</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="hobby.html" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false"><img src="icon/hobby.png"
+                                        width="20px">
+                                    Hobbys |
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="naehen.html">Nähen<img src="icon/Naehen 1.png"
+                                                width="30px" style="float: right;"></a></li>
+                                    <li><a class="dropdown-item active" href="lesen.html">Lesen<img src="icon/buch.png"
+                                                width="30px" style="float: right;"></a></li>
+                                    <li><a class="dropdown-item" href="munzen.html">Mün. sammeln<img
+                                                src="icon/wahrung.png" width="30px" style="float: right;"></a></li>
+                                    <li><a class="dropdown-item col-lg-6" style="color: white;"
+                                            href="munzen.html">Münzen zu sammeln</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- here ends menu list -->
+                    </div>
+                </div>
+                <!-- here start social button and Offcanvas -->
+                <button class="btn btn-primary social" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"
+                    style="background-color: #0d6efd;">Social Media</button>
+
+                <div class="offcanvas offcanvas-bottom" data-bs-scroll="true" tabindex="-1" id="offcanvasBottom"
+                    aria-labelledby="offcanvasBottomLabel">
+                    <div class="offcanvas-header">
+                        <h3 class="offcanvas-title" id="offcanvasBottomLabel">Folge uns:</h3>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body small">
+                        <ul class="socialmedia">
+                            <li class="social-list"><a class="a-social" href="https://facebook.com" target="_empty"><i
+                                        class="fa fa-facebook" aria-hidden="true"><img src="icon/facebook.svg"
+                                            width="50px"></i></a></li>
+                            <li class="social-list"><a href="https://twitter.com" target="_empty" class="a-social"><i
+                                        class="fa fa-twitter" aria-hidden="true"><img src="icon/twitter.svg"
+                                            width="50px"></i></a></li>
+                            <li class="social-list"><a href="https://plus.google.com" target="_empty"
+                                    class="a-social"><i class="fa fa-google-plus" aria-hidden="true"><img
+                                            src="icon/google-plus-logo.svg" width="50px"></i></a>
+                            </li>
+                            <li class="social-list"><a href="https://de.linkedin.com" target="_empty"
+                                    class="a-social"><i class="fa fa-linkedin" aria-hidden="true"><img
+                                            src="icon/linked-in-logo-of-two-letters.svg" width="50px"></i></a></li>
+                            <li class="social-list"><a href="https://www.instagram.com" target="_empty"
+                                    class="a-social"><i class="fa fa-instagram" aria-hidden="true"><img
+                                            src="icon/instagram.svg" width="50px"></i></a></li>
+
+                            <li class="social-list"><a href="https://www.youtube.com" target="_empty"
+                                    class="a-social"><i class="fa fa-google-plus" aria-hidden="true"><img
+                                            src="icon/youtube.svg" width="50px"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- here end social button and Offcanvas -->
+
+                <!-- here starts search button -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit"
+                        style="background-color: #0d6efd; color: white;">Suche</button>
+                </form>
+                <!-- here ends search button -->
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- here ends header-->
+
+    <!-- here starts the page's Contents -->
+
+    <div class="container">
+        <div class="b-example-divider"></div>
+        <div class="row">
+
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><a
+                    class="nav-link" data-toggle="modal" href="#staticBackdropStundeNull"><img
+                        src="images/lesen/zero-hour.jpeg"></a>
+            </button>
+            <div class="modal fade" id="staticBackdropStundeNull" tabindex="-1" role="dialog"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Die Stunde Null</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ssssssssssssiiiiiiiiiiiiiiiii
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="b-example-divider" style="height: 1.5rem; margin: 20px 0px;"></div>
+
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><a
+                    class="nav-link" data-toggle="modal" href="#staticBackdropRogerUkreud"><img
+                        src="images/lesen/Roger-Ukreud.jpg"></a>
+            </button>
+            <div class="modal fade" id="staticBackdropRogerUkreud" tabindex="-1" role="dialog"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Roger Ukreud Mord</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            sssssssssssuuuuuuuuuuuuuuuuuuuu
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="b-example-divider" style="height: 1.5rem; margin: 20px 0px;"></div>
+
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><a
+                    class="nav-link" data-toggle="modal" href="#staticBackdropGrossenVier"><img
+                        src="images/lesen/die-grossen-vier.jpg"></a>
+            </button>
+            <div class="modal fade" id="staticBackdropGrossenVier" tabindex="-1" role="dialog"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Die Großte Vier</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ssssssssssssssooooooooooooooooooo
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+</body>
+<!--BODY End-->
+
+<!--hier endet die HTML Datei-->
+
+</html>
