@@ -40,7 +40,7 @@
                 <a href="#"><img src="images/abowisam.png" class="logo"></a>
             </div>
             <div>
-                <p>Email: maxname@maxemail.com, Tel: 01521/12345678</p>
+                <p>Email: rojda.f@gmail.com, Tel: 01521/825 6408</p>
             </div>
         </div>
     </div>
@@ -61,31 +61,31 @@
                         <!-- here starts menu list -->
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html"><img src="icon/house-door.svg"
+                                <a class="nav-link nav-font" aria-current="page" href="index.html"><img src="icon/house-door.svg"
                                         width="20px">Startseite |</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html"><img src="icon/file-earmark-person-fill.svg"
+                                <a class="nav-link nav-font" href="about.html"><img src="icon/file-earmark-person-fill.svg"
                                         width="20px">Über mich |</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="impressum.html"><img src="icon/informations.png"
+                                <a class="nav-link nav-font" href="impressum.html"><img src="icon/informations.png"
                                         width="20px">Impressum |</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="hobby.html" id="navbarDropdown" role="button"
+                                <a class="nav-link nav-font dropdown-toggle" href="hobby.html" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false"><img src="icon/hobby.png"
                                         width="20px">
                                     Hobbys |
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item active" href="naehen.html">Nähen<img src="icon/Naehen 1.png"
+                                    <li><a class="dropdown-item nav-font active" href="naehen.html">Nähen<img src="icon/Naehen 1.png"
                                                 width="30px" style="float: right;"></a></li>
-                                    <li><a class="dropdown-item" href="lesen.html">Lesen<img src="icon/buch.png"
+                                    <li><a class="dropdown-item nav-font" href="lesen.html">Lesen<img src="icon/buch.png"
                                                 width="30px" style="float: right;"></a></li>
-                                    <li><a class="dropdown-item" href="munzen.html">Mün. sammeln<img
+                                    <li><a class="dropdown-item nav-font" href="munzen.html">Mün. sammeln<img
                                                 src="icon/wahrung.png" width="30px" style="float: right;"></a></li>
-                                    <li><a class="dropdown-item col-lg-6" style="color: white;"
+                                    <li><a class="dropdown-item nav-font col-lg-6" style="color: white;"
                                             href="munzen.html">Münzen zu sammeln</a></li>
                                 </ul>
                             </li>
@@ -146,6 +146,9 @@
     <!-- here ends header-->
 
     <div class="container">
+        <div class="b-example-divider" style="height: 7rem; background-color: lightskyblue;">
+            <h2 class="offset-2" style="margin-top: 35px ;">NÄHEN</h2>
+        </div>
         <div class="row">
 
 
@@ -153,7 +156,45 @@
     </div>
 
 
+    <div class="container">
 
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Nach Oben</button>
+
+        <script>
+
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </div>
+    <div class="container">
+        <footer class="bg-light text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            
+                © 2021 Copyright: Khalid Arab, friedhofstr.24, 75382 Althengstett | enstanden für das Berufsförderwerk Schömberg, Steinbeisstraße 30, 71272
+                Renningen
+                <a class="text-dark" href="https://www.bfw-schoemberg.de/" target="_blank" style="float: right;">BfW Schömberg</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
     <!-- hier beginnt Java Script-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"

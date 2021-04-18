@@ -44,7 +44,7 @@
                 <a href="#"><img src="images/abowisam.png" class="logo"></a>
             </div>
             <div>
-                <p>Email: maxname@maxemail.com, Tel: 01521/12345678</p>
+                <p>Email: rojda.f@gmail.com, Tel: 01521/825 6408</p>
             </div>
         </div>
     </div>
@@ -65,31 +65,31 @@
                         <!-- here starts menu list -->
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html"><img src="icon/house-door.svg"
+                                <a class="nav-link nav-font" aria-current="page" href="index.html"><img src="icon/house-door.svg"
                                         width="20px">Startseite |</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html"><img src="icon/file-earmark-person-fill.svg"
+                                <a class="nav-link nav-font" href="about.html"><img src="icon/file-earmark-person-fill.svg"
                                         width="20px">Über mich |</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="impressum.html"><img src="icon/informations.png"
+                                <a class="nav-link nav-font" href="impressum.html"><img src="icon/informations.png"
                                         width="20px">Impressum |</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="hobby.html" id="navbarDropdown" role="button"
+                                <a class="nav-link nav-font dropdown-toggle" href="hobby.html" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false"><img src="icon/hobby.png"
                                         width="20px">
                                     Hobbys |
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="naehen.html">Nähen<img src="icon/Naehen 1.png"
+                                    <li><a class="dropdown-item nav-font" href="naehen.html">Nähen<img src="icon/Naehen 1.png"
                                                 width="30px" style="float: right;"></a></li>
-                                    <li><a class="dropdown-item" href="lesen.html">Lesen<img src="icon/buch.png"
+                                    <li><a class="dropdown-item nav-font" href="lesen.html">Lesen<img src="icon/buch.png"
                                                 width="30px" style="float: right;"></a></li>
-                                    <li><a class="dropdown-item active" href="munzen.html">Mün. sammeln<img
+                                    <li><a class="dropdown-item nav-font active" href="munzen.html">Mün. sammeln<img
                                                 src="icon/wahrung.png" width="30px" style="float: right;"></a></li>
-                                    <li><a class="dropdown-item col-lg-6" style="color: white;"
+                                    <li><a class="dropdown-item nav-font col-lg-6" style="color: white;"
                                             href="munzen.html">Münzen zu sammeln</a></li>
                                 </ul>
                             </li>
@@ -150,17 +150,20 @@
 
     <!-- here ends header-->
     <div class="container">
-        <div class="b-example-divider"></div>
+        <div class="b-example-divider" style="height: 7rem; background-color: lightskyblue;">
+            <h2 class="offset-2" style="margin-top: 35px ;">MÜNZEN SAMMELN</h2>
+        </div>
         <div class="main">
-            <h1>MYLOGO.COM</h1>
+            <a href="https://abowisam.com"><img src="images/abowisam.png" width="250"></a>
+            <hr width="200">
+            <h2>Meine Portemonnaie</h2>
             <hr>
-            <h2>PORTFOLIO</h2>
             <div id="myBtnContainer">
-                <button class="btn btn-danger" onclick="filterSelection('all')">Alle anzeigen</button>
-                <button class="btn btn-danger" onclick="filterSelection('europ')">Europäisch</button>
-                <button class="btn btn-danger" onclick="filterSelection('africa')">Afrikanisch</button>
-                <button class="btn btn-danger" onclick="filterSelection('asia')">Asiatisch</button>
-                <button class="btn btn-danger" onclick="filterSelection('schein')">Scheine</button>
+                <button class="btn btn-danger sort-btn-all" onclick="filterSelection('all')">Alle anzeigen</button>
+                <button class="btn btn-danger sort-btn" onclick="filterSelection('europ')">Europäisch</button>
+                <button class="btn btn-danger sort-btn" onclick="filterSelection('africa')">Afrikanisch</button>
+                <button class="btn btn-danger sort-btn" onclick="filterSelection('asia')">Asiatisch</button>
+                <button class="btn btn-danger sort-btn" onclick="filterSelection('schein')">Scheine</button>
             </div>
 
             <!-- Portfolio Gallery Grid -->
@@ -171,8 +174,8 @@
                             <a href="images/munzen/Europa-20-cent-2002.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Europa-20-cent-2002.png" class="img-thumbnail"
                                     alt="Europa-20-cent-2002" style="width:100%"></a>
-                            <h4>Mountains</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">20 Cent</h4>
+                            <p class="para500">Der europäische Euro 2002</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -180,8 +183,8 @@
                             <a href="images/munzen/Dollar-25-cent-1991.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Dollar-25-cent-1991.png" class="img-thumbnail"
                                     alt="Dollar-25-cent-1991" style="width:100%"></a>
-                            <h4>Lights</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">25 Cent</h4>
+                            <p class="para500">US Dollar 1991</p>
                         </div>
                     </div>
                     <div class="column africa">
@@ -189,8 +192,8 @@
                             <a href="images/munzen/Eygpt-10-kurush-1992.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Eygpt-10-kurush-1992.png" class="img-thumbnail"
                                     alt="Eygpt-10-kurush-1992" style="width:100%"></a>
-                            <h4>Forest</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">10 Piaster(kurush)</h4>
+                            <p class="para500">Ägyptisches Pfund 1992</p>
                         </div>
                     </div>
 
@@ -199,8 +202,8 @@
                             <a href="images/munzen/Eygpt-Syria-10-kurush-1960.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Eygpt-Syria-10-kurush-1960.png" class="img-thumbnail"
                                     alt="Eygpt-Syria-10-kurush-1960" style="width:100%"></a>
-                            <h4>Retro</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">10 Piaster(kurush)</h4>
+                            <p class="para500">Das syrisch-ägyptische Pfund 1960</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -208,8 +211,8 @@
                             <a href="images/munzen/France-0.5-frank-1970.png" data-lightbox="myGallery"><img
                                     src="images/munzen/France-0.5-frank-1970.png" class="img-thumbnail"
                                     alt="France-0.5-frank-1970" style="width:100%"></a>
-                            <h4>Fast</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">0.5 Franken</h4>
+                            <p class="para500">Französischer Franken 1970</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -217,8 +220,8 @@
                             <a href="images/munzen/Iran-20-Ryal-1932.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Iran-20-Ryal-1932.png" class="img-thumbnail"
                                     alt="Iran-20-Ryal-1932" style="width:100%"></a>
-                            <h4>Classic</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">20 Rial</h4>
+                            <p class="para500">Iranische Rial 1932</p>
                         </div>
                     </div>
 
@@ -227,8 +230,8 @@
                             <a href="images/munzen/Iraq-10-filis-1971.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Iraq-10-filis-1971.png" class="img-thumbnail"
                                     alt="Iraq-10-filis-1971" style="width:100%"></a>
-                            <h4>Girl</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">10 Piaster(filis)</h4>
+                            <p class="para500">Der irakische Dinar 1971</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -236,8 +239,8 @@
                             <a href="images/munzen/Iraq-50-filis-1969.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Iraq-50-filis-1969.png" class="img-thumbnail"
                                     alt="Iraq-50-filis-1969" style="width:100%"></a>
-                            <h4>Man</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">50 Piaster(filis)</h4>
+                            <p class="para500">Der irakische Dinar 1969</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -245,8 +248,8 @@
                             <a href="images/munzen/Jordan-25-filis-1974.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Jordan-25-filis-1974.png" class="img-thumbnail"
                                     alt="Jordan-25-filis-1974" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">25 Piaster(filis)</h4>
+                            <p class="para500">Jordanischer Dinar 1974</p>
                         </div>
                     </div>
                     <div class="column africa">
@@ -254,8 +257,8 @@
                             <a href="images/munzen/Algeria-5-sentim-1973.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Algeria-5-sentim-1973.png" class="img-thumbnail"
                                     alt="Algeria-5-sentim-1973" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">5 Piaster(sentim)</h4>
+                            <p class="para500">Algerischer Dinar 1973</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -263,8 +266,8 @@
                             <a href="images/munzen/Belgium-1-frank-1989.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Belgium-1-frank-1989.png" class="img-thumbnail"
                                     alt="Belgium-1-frank-1989" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">1 frank</h4>
+                            <p class="para500">Belgischer Franken 1989</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -272,8 +275,8 @@
                             <a href="images/munzen/Jordan-5-filis-1978.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Jordan-5-filis-1978.png" class="img-thumbnail"
                                     alt="Jordan-5-filis-1978" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">5 Piaster(filis)</h4>
+                            <p class="para500">Jordanischer Dinar 1978</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -281,8 +284,8 @@
                             <a href="images/munzen/Kuwait-10-filis-1985.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Kuwait-10-filis-1985.png" class="img-thumbnail"
                                     alt="Kuwait-10-filis-1985" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">10 Piaster(filis)</h4>
+                            <p class="para500">Kuwaitischer Dinar 1985</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -290,8 +293,8 @@
                             <a href="images/munzen/Lebanon-1-lira-1975.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Lebanon-1-lira-1975.png" class="img-thumbnail"
                                     alt="Lebanon-1-lira-1975" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">1 Pfund(lira)</h4>
+                            <p class="para500">Das libanesische Pfund 1975</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -299,8 +302,8 @@
                             <a href="images/munzen/Lebanon-10-kurush-1972.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Lebanon-10-kurush-1972.png" class="img-thumbnail"
                                     alt="Lebanon-10-kurush-1972" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">10 Piaster(kurush)</h4>
+                            <p class="para500">Das libanesische Pfund 1972</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -308,8 +311,8 @@
                             <a href="images/munzen/Lebanon-10-kurush-1975.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Lebanon-10-kurush-1975.png" class="img-thumbnail"
                                     alt="Lebanon-10-kurush-1975" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">10 Piaster(kurush)</h4>
+                            <p class="para500">Das libanesische Pfund 1975</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -317,8 +320,8 @@
                             <a href="images/munzen/Lebanon-25-Kurush-1961.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Lebanon-25-Kurush-1961.png" class="img-thumbnail"
                                     alt="Lebanon-25-Kurush-1961" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">25 Piaster(kurush)</h4>
+                            <p class="para500">Das libanesische Pfund 1961</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -326,8 +329,8 @@
                             <a href="images/munzen/Lebanon-25-Kurush-1972.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Lebanon-25-Kurush-1972.png" class="img-thumbnail"
                                     alt="Lebanon-25-Kurush-1972" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">25 Piaster(kurush)</h4>
+                            <p class="para500">Das libanesische Pfund 1972</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -335,8 +338,8 @@
                             <a href="images/munzen/Lebanon-250-lira-1996.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Lebanon-250-lira-1996.png" class="img-thumbnail"
                                     alt="Lebanon-250-lira-1996" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">250 Pfund(lira)</h4>
+                            <p class="para500">Das libanesische Pfund 1996</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -344,8 +347,8 @@
                             <a href="images/munzen/Lebanon-50-Kurush-1970.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Lebanon-50-Kurush-1970.png" class="img-thumbnail"
                                     alt="Lebanon-50-Kurush-1970" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">50 Piaster(kurush)</h4>
+                            <p class="para500">Das libanesische Pfund 1970</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -353,8 +356,8 @@
                             <a href="images/munzen/Lebanon-50-lira-1996.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Lebanon-50-lira-1996.png" class="img-thumbnail"
                                     alt="Lebanon-50-lira-1996" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">50 Pfund(lira)</h4>
+                            <p class="para500">Das libanesische Pfund 1996</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -362,8 +365,8 @@
                             <a href="images/munzen/Lebanon-500-lira-1995.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Lebanon-500-lira-1995.png" class="img-thumbnail"
                                     alt="Lebanon-500-lira-1995" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">500 Pfund(lira)</h4>
+                            <p class="para500">Das libanesische Pfund 1995</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -371,8 +374,8 @@
                             <a href="images/munzen/Niederland-10-cent-1972.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Niederland-10-cent-1972.png" class="img-thumbnail"
                                     alt="Niederland-10-cent-1972" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">10 Cent</h4>
+                            <p class="para500">Niederländischer Gulden 1972</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -380,8 +383,8 @@
                             <a href="images/munzen/Romania-1992.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Romania-1992.png" class="img-thumbnail" alt="Romania-1992"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">50 Lei</h4>
+                            <p class="para500">Rumänischer Lei 1992</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -389,8 +392,8 @@
                             <a href="images/munzen/Romania-20-lei-1991.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Romania-20-lei-1991.png" class="img-thumbnail"
                                     alt="Romania-20-lei-1991" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">20 Lei</h4>
+                            <p class="para500">Rumänischer Lei 1991</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -398,8 +401,8 @@
                             <a href="images/munzen/Russland-2-kopek-1983.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Russland-2-kopek-1983.png" class="img-thumbnail"
                                     alt="Russland-2-kopek-1983" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">20 Kopek</h4>
+                            <p class="para500">Russischer Rubel 1983</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -407,53 +410,53 @@
                             <a href="images/munzen/Russland-20-kopek-1981.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Russland-20-kopek-1981.png" class="img-thumbnail"
                                     alt="Russland-20-kopek-1981" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">20 Kopek</h4>
+                            <p class="para500">Russischer Rubel 1981</p>
                         </div>
                     </div>
                     <div class="column asia">
                         <div class="content">
-                            <a href="images/munzen/Saudi-1987.png" data-lightbox="myGallery"><img
-                                    src="images/munzen/Saudi-1987.png" class="img-thumbnail" alt="Saudi-1987"
+                            <a href="images/munzen/Saudi-10-kurush-1987.png" data-lightbox="myGallery"><img
+                                    src="images/munzen/Saudi-10-kurush-1987.png" class="img-thumbnail" alt="Saudi-1987"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">10 Piaster(kurush)</h4>
+                            <p class="para500">Saudi-Arabien Rial 1987</p>
                         </div>
                     </div>
                     <div class="column asia">
                         <div class="content">
-                            <a href="images/munzen/Syria-1971.png" data-lightbox="myGallery"><img
-                                    src="images/munzen/Syria-1971.png" class="img-thumbnail" alt="Syria-1971"
+                            <a href="images/munzen/Syria-5-kurush-1971.png" data-lightbox="myGallery"><img
+                                    src="images/munzen/Syria-5-kurush-1971.png" class="img-thumbnail" alt="Syria-1971"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">5 Piaster(kurush)</h4>
+                            <p class="para500">Syrische Pfund(Lira) 1971</p>
                         </div>
                     </div>
                     <div class="column asia">
                         <div class="content">
-                            <a href="images/munzen/Syria-1979-1.png" data-lightbox="myGallery"><img
-                                    src="images/munzen/Syria-1979-1.png" class="img-thumbnail" alt="Syria-1979-1"
+                            <a href="images/munzen/Syria-5-kurush-1979.png" data-lightbox="myGallery"><img
+                                    src="images/munzen/Syria-5-kurush-1979.png" class="img-thumbnail" alt="Syria-1979-1"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">5 Piaster(kurush)</h4>
+                            <p class="para500">Syrische Pfund(Lira) 1979</p>
                         </div>
                     </div>
                     <div class="column asia">
                         <div class="content">
-                            <a href="images/munzen/Syria-1979-2.png" data-lightbox="myGallery"><img
-                                    src="images/munzen/Syria-1979-2.png" class="img-thumbnail" alt="Syria-1979-2"
-                                    style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <a href="images/munzen/Syria-25-kurush-1979.png" data-lightbox="myGallery"><img
+                                    src="images/munzen/Syria-25-kurush-1979.png" class="img-thumbnail"
+                                    alt="Syria-1979-2" style="width:100%"></a>
+                            <h4 class="max500">25 Piaster(kurush)</h4>
+                            <p class="para500">Syrische Pfund(Lira) 1979</p>
                         </div>
                     </div>
                     <div class="column asia">
                         <div class="content">
-                            <a href="images/munzen/Syria-1979-3.png" data-lightbox="myGallery"><img
-                                    src="images/munzen/Syria-1979-3.png" class="img-thumbnail" alt="Syria-1979-3"
-                                    style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <a href="images/munzen/Syria-10-kurush-1979.png" data-lightbox="myGallery"><img
+                                    src="images/munzen/Syria-10-kurush-1979.png" class="img-thumbnail"
+                                    alt="Syria-1979-3" style="width:100%"></a>
+                            <h4 class="max500">10 Piaster(kurush)</h4>
+                            <p class="para500">Syrische Pfund(Lira) 1979</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -461,17 +464,17 @@
                             <a href="images/munzen/Syria-2.5-Kurush-1962.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Syria-2.5-Kurush-1962.png" class="img-thumbnail"
                                     alt="Syria-2.5-Kurush-1962" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">2.5 Piaster(kurush)</h4>
+                            <p class="para500">Syrische Pfund(Lira) 1962</p>
                         </div>
                     </div>
                     <div class="column asia">
                         <div class="content">
-                            <a href="images/munzen/Syria-25-kurush-1979.png" data-lightbox="myGallery"><img
-                                    src="images/munzen/Syria-25-kurush-1979.png" class="img-thumbnail"
+                            <a href="images/munzen/Syria-50-kurush-1979.png" data-lightbox="myGallery"><img
+                                    src="images/munzen/Syria-50-kurush-1979.png" class="img-thumbnail"
                                     alt="Syria-25-kurush-1979" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">50 Piaster(kurush)</h4>
+                            <p class="para500">Syrische Pfund(Lira) 1979</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -479,8 +482,8 @@
                             <a href="images/munzen/Syria-25-lira-1996.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Syria-25-lira-1996.png" class="img-thumbnail"
                                     alt="Syria-25-lira-1996" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">25 Pfund(Lira)</h4>
+                            <p class="para500">Syrische Pfund(Lira) 1996</p>
                         </div>
                     </div>
                     <div class="column asia">
@@ -488,8 +491,8 @@
                             <a href="images/munzen/Syria-5-Kurush-1935.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Syria-5-Kurush-1935.png" class="img-thumbnail"
                                     alt="Syria-5-Kurush-1935" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">5 Piaster(kurush)</h4>
+                            <p class="para500">Syrische Pfund(Lira) 1935</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -497,8 +500,8 @@
                             <a href="images/munzen/Turkiye-100-lira-1989.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Turkiye-100-lira-1989.png" class="img-thumbnail"
                                     alt="Turkiye-100-lira-1989.png" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">100 Lira</h4>
+                            <p class="para500">Türkische Lira 1989</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -506,8 +509,8 @@
                             <a href="images/munzen/Turkiye-1000-lira-1991.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Turkiye-1000-lira-1991.png" class="img-thumbnail"
                                     alt="Turkiye-1000-lira-1991" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">1000 Lira</h4>
+                            <p class="para500">Türkische Lira 1991</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -515,8 +518,8 @@
                             <a href="images/munzen/Turkiye-2.5-lira-1975.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Turkiye-2.5-lira-1975.png" class="img-thumbnail"
                                     alt="Turkiye-2.5-lira-1975" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">2.5 Lira</h4>
+                            <p class="para500">Türkische Lira 1975</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -524,8 +527,8 @@
                             <a href="images/munzen/Turkiye-25000-lira-1996.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Turkiye-25000-lira-1996.png" class="img-thumbnail"
                                     alt="Turkiye-25000-lira-1996" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">25000 Lira</h4>
+                            <p class="para500">Türkische Lira 1996</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -533,8 +536,8 @@
                             <a href="images/munzen/Turkiye-500-lira-1989.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Turkiye-500-lira-1989.png" class="img-thumbnail"
                                     alt="Turkiye-500-lira-1989" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">500 Lira</h4>
+                            <p class="para500">Türkische Lira 1989</p>
                         </div>
                     </div>
                     <div class="column europ">
@@ -542,8 +545,8 @@
                             <a href="images/munzen/Zypern-10-Pound-1985.png" data-lightbox="myGallery"><img
                                     src="images/munzen/Zypern-10-Pound-1985.png" class="img-thumbnail"
                                     alt="Zypern-10-Pound-1985" style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">10 Pfund</h4>
+                            <p class="para500">Das zypriotische Pfund 1985</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -551,8 +554,8 @@
                             <a href="images/shein/Dollar-1-b.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Dollar-1-b.jpg" class="img-thumbnail" alt="Dollar-1-b"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">1 Dollar</h4>
+                            <p class="para500">US Dollar von hinten 2003</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -560,8 +563,8 @@
                             <a href="images/shein/Dollar-1-f.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Dollar-1-f.jpg" class="img-thumbnail" alt="Dollar-1-f"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">1 Dollar</h4>
+                            <p class="para500">US Dollar von vorne 2003</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -569,8 +572,8 @@
                             <a href="images/shein/Iran-5000-b.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Iran-5000-b.jpg" class="img-thumbnail" alt="Iran-5000-b"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">5000 Rial</h4>
+                            <p class="para500">Iranische Rial-hinten(unbekannt)</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -578,8 +581,8 @@
                             <a href="images/shein/Iran-5000-f.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Iran-5000-f.jpg" class="img-thumbnail" alt="Iran-5000-f"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">5000 Rial</h4>
+                            <p class="para500">Iranische Rial-vorne(unbekannt)</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -587,8 +590,8 @@
                             <a href="images/shein/Iraq-250-b.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Iraq-250-b.jpg" class="img-thumbnail" alt="Iraq-250-b"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">250 Dinar</h4>
+                            <p class="para500">Der irakische Dinar-hinten 2013</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -596,8 +599,8 @@
                             <a href="images/shein/Iraq-250-f.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Iraq-250-f.jpg" class="img-thumbnail" alt="Iraq-250-f"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">250 Dinar</h4>
+                            <p class="para500">Der irakische Dinar-vorne 2013</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -605,8 +608,8 @@
                             <a href="images/shein/Lebanon-10-b.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Lebanon-10-b.jpg" class="img-thumbnail" alt="Lebanon-10-b"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">10 Pfund(Lira)</h4>
+                            <p class="para500">Libanesische Pfund-hinten 1986</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -614,8 +617,8 @@
                             <a href="images/shein/Lebanon-10-f.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Lebanon-10-f.jpg" class="img-thumbnail" alt="Lebanon-10-f"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">10 Pfund(Lira)</h4>
+                            <p class="para500">Libanesische Pfund-vorne 1986</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -623,8 +626,8 @@
                             <a href="images/shein/Lebanon-1000-b.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Lebanon-1000-b.jpg" class="img-thumbnail" alt="Lebanon-1000-b"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">1000 Pfund(Lira)</h4>
+                            <p class="para500">Libanesische Pfund-hinten 2004</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -632,8 +635,8 @@
                             <a href="images/shein/Lebanon-1000-f.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Lebanon-1000-f.jpg" class="img-thumbnail" alt="Lebanon-1000-f"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">1000 Pfund(Lira)</h4>
+                            <p class="para500">Libanesische Pfund-vorne 2004</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -641,8 +644,8 @@
                             <a href="images/shein/Lebanon-5-b.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Lebanon-5-b.jpg" class="img-thumbnail" alt="Lebanon-5-b"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">5 Pfund(Lira)</h4>
+                            <p class="para500">Libanesische Pfund-hinten 1978</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -650,8 +653,8 @@
                             <a href="images/shein/Lebanon-5-f.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Lebanon-5-f.jpg" class="img-thumbnail" alt="Lebanon-5-f"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">5 Pfund(Lira)</h4>
+                            <p class="para500">Libanesische Pfund-vorne 1978</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -659,8 +662,8 @@
                             <a href="images/shein/Romania-500-b.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Romania-500-b.jpg" class="img-thumbnail" alt="Romania-500-b"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">500 Lei</h4>
+                            <p class="para500">Rumänischer Lei-hinten 1992</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -668,8 +671,8 @@
                             <a href="images/shein/Romania-500-f.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Romania-500-f.jpg" class="img-thumbnail" alt="Romania-500-f"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">500 Lei</h4>
+                            <p class="para500">Rumänischer Lei-vorne 1992</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -677,8 +680,8 @@
                             <a href="images/shein/Saudi-1-b.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Saudi-1-b.jpg" class="img-thumbnail" alt="Saudi-1-b"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">1 Rial</h4>
+                            <p class="para500">Saudi-Arabien Rial-hinten 1958</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -686,8 +689,8 @@
                             <a href="images/shein/Saudi-1-f.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Saudi-1-f.jpg" class="img-thumbnail" alt="Saudi-1-f"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">1 Rial</h4>
+                            <p class="para500">Saudi-Arabien Rial-vorne 1958</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -695,8 +698,8 @@
                             <a href="images/shein/Syria-1-b.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Syria-1-b.jpg" class="img-thumbnail" alt="Syria-1-b"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">1 Pfund(Lira)</h4>
+                            <p class="para500">Syrische Pfund(Lira)-hinten 1978</p>
                         </div>
                     </div>
                     <div class="column schein">
@@ -704,8 +707,8 @@
                             <a href="images/shein/Syria-1-f.jpg" data-lightbox="myGallery"><img
                                     src="images/shein/Syria-1-f.jpg" class="img-thumbnail" alt="Syria-1-f"
                                     style="width:100%"></a>
-                            <h4>Woman</h4>
-                            <p>Lorem ipsum dolor..</p>
+                            <h4 class="max500">1 Pfund(Lira)</h4>
+                            <p class="para500">Syrische Pfund(Lira)-hinten 1978</p>
                         </div>
                     </div>
                 </div>
@@ -715,9 +718,45 @@
         </div>
     </div>
 
+    <div class="container">
 
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Nach Oben</button>
 
+        <script>
 
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </div>
+    <div class="container">
+        <footer class="bg-light text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            
+                © 2021 Copyright: Khalid Arab, friedhofstr.24, 75382 Althengstett | enstanden für das Berufsförderwerk Schömberg, Steinbeisstraße 30, 71272
+                Renningen
+                <a class="text-dark" href="https://www.bfw-schoemberg.de/" target="_blank" style="float: right;">BfW Schömberg</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
     <!-- hier beginnt Java Script-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
@@ -728,7 +767,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- hier endet Java Script-->
