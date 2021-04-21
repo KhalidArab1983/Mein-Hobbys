@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/custombootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <!--[if lt IE 9]-->
     <script src="js/html5shiv.min.js"></script>
@@ -34,7 +33,8 @@
 <!--BODY Start-->
 
 <body>
-    <div class="container">
+
+    <div class="container fixed-top">
         <div class="shadow-lg p-3 mb-5 bg-body rounded">
             <div>
                 <a href="#"><img src="images/abowisam.png" class="logo"></a>
@@ -43,9 +43,6 @@
                 <p>Email: rojda.f@gmail.com, Tel: 01521/825 6408</p>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="b-example-divider"></div>
         <div class="row">
             <!-- here starts header -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -94,7 +91,7 @@
                     </div>
                 </div>
                 <!-- here start social button and Offcanvas -->
-                <button class="btn btn-primary social" type="button" data-bs-toggle="offcanvas"
+                <button class="btn btn-primary social sort-btn-all" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"
                     style="background-color: #0d6efd;">Social Media</button>
 
@@ -135,8 +132,8 @@
 
                 <!-- here starts search button -->
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit"
+                    <input class="form-control me-2 sort-btn" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary sort-btn" type="submit"
                         style="background-color: #0d6efd; color: white;">Suche</button>
                 </form>
                 <!-- here ends search button -->
@@ -148,8 +145,16 @@
     <!-- here ends header-->
 
     <div class="container">
+        <div class="b-example-divider fixed-divider"></div>
+    </div>
+
+    <div class="container">
         <div class="b-example-divider" style="height: 7rem; background-color: lightskyblue;">
-            <h2 class="offset-2" style="margin-top: 35px ;">IMPRESSUM</h2>
+            <h2 class="offset-2" style="margin-top: 20px ;">IMPRESSUM</h2>
+            <marquee scrolldelay="100" class="w-100 para-uber" height="35px" direction="left" bgcolor="lightskyblue"
+                style="margin-top: 10px; color: red; font-weight: bold;">Diese Website wurde im Rahmen des Anwendungsentwicklungsprojekts in
+                Berufsförderungswerk Schömberg erstellt, bei dem es sich um eine Aufgabe handelt, eine Website mit
+                HTML/CSS zu erstellen.</marquee>
         </div>
         <div class="row">
             <section>
@@ -159,7 +164,7 @@
 
                             <div>
                                 <div class="container">
-                                    <div class="contact-parent">
+                                    <div class="contact-parent contact-max500">
                                         <div class="contact-child child1">
 
                                             <h2 class="offset-2">Khalid Arab</h2>
@@ -184,7 +189,7 @@
 
                                         <div class="contact-child child2">
                                             <div class="inside-contact">
-                                                <h2>Contact Us</h2>
+                                                <h2>Kontakt Uns</h2>
                                                 <h3>
                                                     <span id="confirm">
                                                 </h3>
@@ -201,11 +206,11 @@
                                                 <input id="txt_phone" type="text" Required="required"
                                                     placeholder="Ihre Telefonnummer">
 
-                                                <p>Subject *</p>
+                                                <p>Betreff *</p>
                                                 <input id="txt_subject" type="text" Required="required"
                                                     placeholder="Was ist das Problem?">
 
-                                                <p>Message *</p>
+                                                <p>Der Text *</p>
                                                 <textarea id="txt_message" rows="4" cols="20" Required="required"
                                                     placeholder="Erzähle Ihr Problem"></textarea>
 
@@ -261,10 +266,47 @@
             }
         </script>
     </div>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- <img src="images/abowisam.png" class="logo">
+            <a class="navbar-brand" href="#"></a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- here starts menu list -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Startseite |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Über mich |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="impressum.html">Impressum |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="naehen.html">Nähen |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lesen.html">Lesen |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="munzen.html">Münzen sammeln |</a>
+                    </ul>
+                    <!-- here ends menu list -->
+                </div>
+            </div>
+        </nav>
+    </div>
     <div class="container">
         <footer class="bg-light text-center text-lg-start">
             <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.404);">
 
                 © 2021 Copyright: Khalid Arab, friedhofstr.24, 75382 Althengstett | enstanden für das Berufsförderwerk
                 Schömberg, Steinbeisstraße 30, 71272
@@ -285,7 +327,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
-    <!-- <script src="js/jquery-3.6.0.js"></script> -->
+    <script src="js/jquery-3.6.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- hier endet Java Script-->
 </body>

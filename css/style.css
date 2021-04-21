@@ -262,6 +262,10 @@ h1 {
      color: white;
   }
 
+
+
+
+
 /*********************************** responsive for munzen page: font size and Button *******************************************/
 @media (max-width: 576px) {
   .max500{
@@ -271,11 +275,26 @@ h1 {
     font-size: 0.5em;
   }
   .sort-btn{
-    width: 100px;
+    width: 140px;
     margin: 10px;
   }
   .sort-btn-all{
     width: 250px;
+  }
+  .para-uber{
+    font-size: 0.7;
+    padding: 0;
+  }
+  .max-uber{
+    font-size: 1.3em;
+  }
+ 
+ 
+}
+
+@media (min-width: 576px) {
+  .para-uber{
+    font-size: 1.5em;
   }
 
 }
@@ -296,6 +315,7 @@ h1 {
 .gallerys img:hover {
     filter: grayscale(0);
     transform: scale(1.1);
+
 }
 
 /* Lightbox style ends here */
@@ -308,17 +328,17 @@ h1 {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
+  bottom: 50px;
   right: 30px;
   z-index: 99;
-  font-size: 18px;
+  font-size: 12px;
   border: none;
   outline: none;
   background-color: red;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  padding: 8px;
+  border-radius: 40px;
 }
 
 #myBtn:hover {
@@ -328,7 +348,7 @@ h1 {
 
 
 
-/*************************************************Impressum page starts**************************************************************/
+/*************************************************Impressum page starts here**************************************************************/
 *{
   margin:0;
   padding:0;
@@ -433,3 +453,171 @@ h1 {
       background-color:#fff;
   }
 }
+ /*******************************b-example-divider************************************/ 
+ .fixed-divider{
+   height: 12.5rem;
+  
+ }
+
+
+ @media (max-width: 576px){
+   .fixed-divider{
+      height: 18rem;
+   }
+ 
+ }
+/*******************************b-example-divider ends here*******************************/
+
+
+
+/******************************************the custom Classes from Bootstrap starts here *******************************/
+.offcanvas {
+  position: fixed;
+  bottom: 0;
+  z-index: 1040;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  visibility: hidden;
+  background-color: rgb(26, 26, 26);
+  background-clip: padding-box;
+  outline: 0;
+  transition: transform 0.3s ease-in-out;
+}
+.rounded-circle {
+  width: 10%;
+}
+.container-fluid{
+  width: 100%;
+}
+.btn-outline-success {
+  margin-right: 0;
+  width: 30%;
+}
+.container {
+  background-color: white;
+  padding-bottom: 10px;
+  width: 100%;
+}
+/******************************************the custom Classes from Bootstrap ends here ***********************************/
+
+
+
+
+/********************************************** Stretched link in Homepage starts ****************************************/
+.card {
+  float: left;
+  margin: 4%;
+  width: 18rem;
+}
+
+@media (max-width: 576px){
+  .card{
+      width: 12rem;
+      margin: 0;
+  }
+  .card-text{
+      display: none;
+  }
+}
+/********************************************** Stretched link in Homepage ends ******************************************/
+
+
+
+.d-flex{
+  width: 40%;
+}
+.active{
+  text-decoration: underline;
+}
+
+
+/******************************************************* lesen page starts here ********************************************/
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+/******************************************************* lesen page ends here **********************************************/
+
+
+
+
+/************************************************ About me in Homepage starts here ***************************************************/
+.d-block{
+  margin-bottom: 20px;
+}
+
+.text-about{
+  text-decoration: none;
+  color: white;
+}
+
+.para-about{
+  color: #0d6efd;
+  
+}
+/************************************************ About me in Homepage ends here ***************************************************/
+
+
+
+
+/********************************************** The default Width was created from 5% to 95% ******************************************/
+
+.w-5{
+  width: 5% !important;
+}
+.w-10{
+  width: 10% !important;
+}
+.w-15{
+  width: 15% !important;
+}
+.w-20{
+  width: 20% !important;
+}
+.w-30{
+  width: 30% !important;
+}
+.w-35{
+  width: 35% !important;
+}
+.w-40{
+  width: 40% !important;
+}
+.w-45{
+  width: 45% !important;
+}
+.w-55{
+  width: 55% !important;
+}
+.w-60{
+  width: 60% !important;
+}
+.w-65{
+  width: 65% !important;
+}
+.w-70{
+  width: 70% !important;
+}
+.w-80{
+  width: 80% !important;
+}
+.w-85{
+  width: 85% !important;
+}
+.w-90{
+  width: 90% !important;
+}
+.w-95{
+  width: 95% !important;
+}
+/********************************************** The default Width was created from 5% to 95% ******************************************/
+
