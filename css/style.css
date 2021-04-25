@@ -16,8 +16,8 @@
 
 
 .social{
-    width: 25%;
-    margin-right: 30px;
+    width: 20%;
+    margin-right: 3%;
     float: left;
 }
 h3 {
@@ -31,134 +31,163 @@ body{
     padding: 0;
     background-color: #ccc;
 }
+
+
+@media (max-width: 600px) {
+  .socialmedia .social-list {
+      transform: scale(0.6);
+    padding: auto;
+    margin: auto;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 700px) {
+  .socialmedia .social-list {
+      transform: scale(0.7);
+      padding: auto;
+      margin: auto;
+  }
+
+}
+
+@media (min-width: 701px) and (max-width: 800px) {
+  .socialmedia .social-list {
+      transform: scale(0.8);
+      padding: auto;
+      margin: auto;
+  }
+ 
+}
+
 .socialmedia{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-margin: 0;
-padding: 0;
-display: flex;
-
-}
-.socialmedia .social-list{
-list-style: none;
-margin: 0 40px;
-
-}
-.socialmedia .social-list .fa{
-font-size: 40px;
-color: #262626;
-line-height: 80px;
-transition: .5s;
-
-}
-.socialmedia .social-list .a-social{
-position: relative;
-display: block;
-width: 80px;
-height: 80px;
-background-color: #fff;
-text-align: center;
-transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
-transition: .5s;
-box-shadow: -20px 20px 10px rgb(0, 0, 0, 0.5);
-}
-.socialmedia .social-list .a-social::before{
-content: "";
-position: absolute;
-top: 10px;
-left: -20px;
-height: 100%;
-width: 20px;
-background: #b1b1b1;
-transition: .5s;
-transform: rotate(0deg) skewY(-45deg);
-}
-.socialmedia .social-list .a-social::after{
-content: "";
-position: absolute;
-top: 80px;
-left: -11px;
-height: 20px;
-width: 100%;
-background: #b1b1b1;
-transition: .5s;
-transform: rotate(0deg) skewX(-45deg);
-}
-.socialmedia .social-list .a-social:hover{
-transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
-box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
-}
-.socialmedia .social-list:hover .fa{
-color: #fff;
-}
-.socialmedia .social-list .a-social:hover{
-transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
-box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
-}
-.socialmedia .social-list:hover:nth-child(1) .a-social{
-background: #3b5999;
-}
-
-.socialmedia .social-list:hover:nth-child(1) .a-social:before{
-background: #2e4a86;
-}
-.socialmedia .social-list:hover:nth-child(1) .a-social:after{
-background: #4a69ad;
-}
-.socialmedia .social-list:hover:nth-child(2) .a-social{
-background: #55acee;
-}
-.socialmedia .social-list:hover:nth-child(2) .a-social:before{
-background: #4184b7;
-}
-.socialmedia .social-list:hover:nth-child(2) .a-social:after{
-background: #4d9fde;
-}
-.socialmedia .social-list:hover:nth-child(3) .a-social{
-background: #dd4b39;
-}
-
-.socialmedia .social-list:hover:nth-child(3) .a-social:before{
-background: #c13929;
-}
-.socialmedia .social-list:hover:nth-child(3) .a-social:after{
-background: #e83322;
-}
-
-.socialmedia .social-list:hover:nth-child(4) .a-social{
-background: #0077B5;
-}
-
-.socialmedia .social-list:hover:nth-child(4) .a-social:before{
-background: #036aa0;
-}
-.socialmedia .social-list:hover:nth-child(4) .a-social:after{
-background: #0d82bf;
-}
-
-.socialmedia .social-list:hover:nth-child(5) .a-social{
-background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
-}
-
-.socialmedia .social-list:hover:nth-child(5) .a-social:before{
-background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
-}
-.socialmedia .social-list:hover:nth-child(5) .a-social:after{
-background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
-}
-
-.socialmedia .social-list:hover:nth-child(6) .a-social{
-background: #c73420;
-}
-
-.socialmedia .social-list:hover:nth-child(6) .a-social:before{
-background: #c73322;
-}
-.socialmedia .social-list:hover:nth-child(6) .a-social:after{
-background: #b42b1f;
-}
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+  }
+  .socialmedia .social-list{
+  list-style: none;
+  margin: 0 40px;
+  
+  }
+  .socialmedia .social-list .fa{
+  font-size: 40px;
+  color: #262626;
+  line-height: 80px;
+  transition: .5s;
+  
+  }
+  .socialmedia .social-list .a-social{
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  text-align: center;
+  transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
+  transition: .5s;
+  box-shadow: -20px 20px 10px rgb(0, 0, 0, 0.5);
+  }
+  .socialmedia .social-list .a-social::before{
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #b1b1b1;
+  transition: .5s;
+  transform: rotate(0deg) skewY(-45deg);
+  }
+  .socialmedia .social-list .a-social::after{
+  content: "";
+  position: absolute;
+  top: 80px;
+  left: -11px;
+  height: 20px;
+  width: 100%;
+  background: #b1b1b1;
+  transition: .5s;
+  transform: rotate(0deg) skewX(-45deg);
+  }
+  .socialmedia .social-list .a-social:hover{
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+  box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+  }
+  .socialmedia .social-list:hover .fa{
+  color: #fff;
+  }
+  .socialmedia .social-list .a-social:hover{
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+  box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+  }
+  .socialmedia .social-list:hover:nth-child(1) .a-social{
+  background: #0147af;
+  }
+  
+  .socialmedia .social-list:hover:nth-child(1) .a-social:before{
+  background: #0147af;
+  }
+  .socialmedia .social-list:hover:nth-child(1) .a-social:after{
+  background: #0147af;
+  }
+  .socialmedia .social-list:hover:nth-child(2) .a-social{
+  background: #55acee;
+  }
+  .socialmedia .social-list:hover:nth-child(2) .a-social:before{
+  background: #4184b7;
+  }
+  .socialmedia .social-list:hover:nth-child(2) .a-social:after{
+  background: #4d9fde;
+  }
+  .socialmedia .social-list:hover:nth-child(3) .a-social{
+  background: #dd4b39;
+  }
+  
+  .socialmedia .social-list:hover:nth-child(3) .a-social:before{
+  background: #c13929;
+  }
+  .socialmedia .social-list:hover:nth-child(3) .a-social:after{
+  background: #e83322;
+  }
+  
+  .socialmedia .social-list:hover:nth-child(4) .a-social{
+  background: #0077B5;
+  }
+  
+  .socialmedia .social-list:hover:nth-child(4) .a-social:before{
+  background: #036aa0;
+  }
+  .socialmedia .social-list:hover:nth-child(4) .a-social:after{
+  background: #0d82bf;
+  }
+  
+  .socialmedia .social-list:hover:nth-child(5) .a-social{
+  background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+  }
+  
+  .socialmedia .social-list:hover:nth-child(5) .a-social:before{
+  background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+  }
+  .socialmedia .social-list:hover:nth-child(5) .a-social:after{
+  background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+  }
+  
+  .socialmedia .social-list:hover:nth-child(6) .a-social{
+  background: #ad0000;
+  }
+  
+  .socialmedia .social-list:hover:nth-child(6) .a-social:before{
+  background: #ad0000;
+  }
+  .socialmedia .social-list:hover:nth-child(6) .a-social:after{
+  background: #ad0000;
+  }
 
 .b-example-divider {
     height: 3rem;
@@ -169,9 +198,7 @@ background: #b42b1f;
 }
 
 
-
-/**************************************************************************************************************************/
-/******************** munzen Seite style starts **********************************/
+/******************************************** munzen page style starts ****************************************************/
 
 .w-20{
     width: 20%;
@@ -266,7 +293,7 @@ h1 {
 
 
 
-/*********************************** responsive for munzen page: font size and Button *******************************************/
+/****** responsive for munzen page: font size and Button *******/
 @media (max-width: 576px) {
   .max500{
     font-size: 0.7em;
@@ -298,29 +325,122 @@ h1 {
   }
 
 }
-/****************************************************************************************************/
 
-
-
-/* Lightbox style starts here */
+/***lightbox for munzen page***/
 .gallerys{
-    padding: 10px 30px;
+  padding: 10px 30px;
 }
 .gallerys img {
-    width: 200px;
-    padding: 10px;
-    filter: grayscale(100%);
-    transition: 1s;
+  width: 200px;
+  padding: 10px;
+  filter: grayscale(100%);
+  transition: 1s;
+  
 }
 .gallerys img:hover {
-    filter: grayscale(0);
-    transform: scale(1.1);
-
+  filter: grayscale(0);
+  transform: scale(1.1);
+  box-shadow: 5px 2px 5px 0px #3b3b3b;
 }
 
-/* Lightbox style ends here */
+/*********************************************** munzen page style ends ********************************************/
 
-/******************** munzen Seite style ends **********************************/
+
+
+
+
+/*********************************************** naehen page style starts ********************************************/
+
+.naehen-title{
+  margin-top: 30px;
+}
+/***lightbox for naehen page***/
+.gallery-naeh{
+  padding: 10px 30px;
+}
+.gallery-naeh img {
+  width: 200px;
+  padding: 10px;
+  transition: 1s;
+}
+.gallery-naeh img:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 8px 10px 10px #3b3b3b;
+}
+
+.img-naeh{
+  margin: 50px;
+  margin-top: 30px;
+  box-shadow: 10px 8px 10px 2px #3b3b3b;
+}
+/***lightbox for naehen page ends***/
+
+.zubehor{
+  text-align: center;
+  margin-top: 20px;
+  background-color: #e4e4e4;
+  box-shadow: 10px 8px 10px 2px #3b3b3b;
+  font-family: cursive;
+  margin-left: 38%;
+  font-size: 2em;
+  width: 25% !important;
+}
+
+@media (max-width: 1399px){
+  .zubehor{
+    font-size: 2em;
+    width: 30%;
+    margin-left: 33%;
+  }
+  .img-naeh{
+    margin: 25px;
+  }
+}
+
+@media (max-width: 991px){
+  .zubehor{
+    margin-left: 30%;
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 768px){
+  .zubehor{
+    width: 55% !important;
+    margin-left: 23%;
+  }
+  .img-naeh{
+    margin: 15px;
+    width: 40% !important;
+  }
+  .naehen-title{
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 576px) {
+  
+  .zubehor{
+    flex: 0 0 auto;
+    width: 45% !important;
+    font-size: 1.5em;
+    margin-left: 22%;
+  }
+  .img-naeh{
+    margin: 0;
+    margin-left: 10px;
+    width: 40% !important;
+  }
+  .naehen-title{
+    margin-top: 35px;
+  }
+}
+
+/*********************************************** naehen page style ends ********************************************/
+
+
+
+
 /**************************************************************************************************************************/
 
 
@@ -519,7 +639,17 @@ h1 {
   .card-text{
       display: none;
   }
+  /****menu in footer will be hidden by Mobile size****/
+  .footer-menu{
+    display: none;
+  }
+/*****mobile footer ends******/
+
+ 
 }
+
+
+
 /********************************************** Stretched link in Homepage ends ******************************************/
 
 
@@ -619,5 +749,45 @@ h1 {
 .w-95{
   width: 95% !important;
 }
+
+
 /********************************************** The default Width was created from 5% to 95% ******************************************/
+
+
+
+/***********************************************here start Accordion and my skills style********************************************/
+* {box-sizing:border-box;}
+
+.accordion-button{
+  background-color: #b8b7b7;
+  font-size: 1.5em;
+}
+
+/* Container for skill bars */
+.container-skill {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  padding: 0;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: rgb(255, 255, 255); /* White text color */
+
+}
+.accordion-title{
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+}
+
+.premiere {width: 60%; background-color: #4CAF50;} /* Green */
+.photoshop {width: 50%; background-color: #2196F3;} /* Blue */
+.wordpress {width: 40%; background-color: #f15a54;} /* pink */
+.office {width: 70%; background-color: #b19102;} /* yellow */
+.html {width: 40%; background-color: #8a0795;} /* purple */
+
+/***********************************************here end Accordion and my skills style*************************************************/
+
 

@@ -1,0 +1,139 @@
+.offcanvas {
+    position: fixed;
+    bottom: 0;
+    z-index: 1040;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    visibility: hidden;
+    background-color: rgb(26, 26, 26);
+    background-clip: padding-box;
+    outline: 0;
+    transition: transform 0.3s ease-in-out;
+  }
+.rounded-circle {
+    width: 10%;
+}
+.container-fluid{
+    width: 100%;
+}
+.btn-outline-success {
+    margin-right: 0;
+    width: 30%;
+}
+.container {
+    background-color: white;
+    padding-bottom: 10px;
+    width: 100%;
+}
+/*************************************** Stretched link in Homepage starts ***************************/
+.card {
+    float: left;
+    margin: 4%;
+    width: 18rem;
+}
+
+@media (max-width: 576px){
+    .card{
+        width: 12rem;
+        margin: 0;
+    }
+    .card-text{
+        display: none;
+    }
+}
+
+
+
+/************************************* Stretched link in Homepage ends *****************************/
+
+.d-flex{
+    width: 40%;
+}
+.active{
+    text-decoration: underline;
+}
+
+/****************************** lesen page *************************/
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+  }
+
+
+
+
+/******************* About me in Homepage ***********************/
+.d-block{
+    margin-bottom: 20px;
+}
+
+.text-about{
+    text-decoration: none;
+    color: white;
+}
+
+.para-about{
+    color: #0d6efd;
+    
+}
+
+/********************************************** The default Width was created from 5% to 95% ******************************************/
+
+.w-5{
+    width: 5% !important;
+}
+.w-10{
+    width: 10% !important;
+}
+.w-15{
+    width: 15% !important;
+}
+.w-20{
+    width: 20% !important;
+}
+.w-30{
+    width: 30% !important;
+}
+.w-35{
+    width: 35% !important;
+}
+.w-40{
+    width: 40% !important;
+}
+.w-45{
+    width: 45% !important;
+}
+.w-55{
+    width: 55% !important;
+}
+.w-60{
+    width: 60% !important;
+}
+.w-65{
+    width: 65% !important;
+}
+.w-70{
+    width: 70% !important;
+}
+.w-80{
+    width: 80% !important;
+}
+.w-85{
+    width: 85% !important;
+}
+.w-90{
+    width: 90% !important;
+}
+.w-95{
+    width: 95% !important;
+}
