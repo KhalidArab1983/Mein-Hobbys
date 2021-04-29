@@ -1,6 +1,7 @@
 *{
   font-family:  Georgia, 'Times New Roman', Times, serif;
 }
+
 .logo {
     width: 10% !important;
     float: right;
@@ -20,7 +21,7 @@
     margin-right: 3%;
     float: left;
 }
-h3 {
+.folge-uns {
     margin-left: 47%;
     color: azure;
 }
@@ -33,31 +34,29 @@ body{
 }
 
 
-@media (max-width: 600px) {
-  .socialmedia .social-list {
-      transform: scale(0.6);
-    padding: auto;
-    margin: auto;
-  }
-
-}
-
-@media (min-width: 601px) and (max-width: 700px) {
-  .socialmedia .social-list {
-      transform: scale(0.7);
-      padding: auto;
-      margin: auto;
-  }
-
-}
-
-@media (min-width: 701px) and (max-width: 800px) {
+@media (max-width: 1015px) {
   .socialmedia .social-list {
       transform: scale(0.8);
-      padding: auto;
-      margin: auto;
   }
- 
+
+}
+
+@media (max-width: 768px) {
+  .socialmedia .social-list {
+      transform: scale(0.7);
+  }
+
+}
+
+@media (max-width: 576px) {
+  .socialmedia .social-list {
+    transform: scale(0.6);
+    list-style: none;
+    margin: 0 -20px;
+}
+
+  
+
 }
 
 .socialmedia{
@@ -295,6 +294,19 @@ h1 {
 
 /****** responsive for munzen page: font size and Button *******/
 @media (max-width: 576px) {
+  .para-uber{
+    font-size: 1.5em;
+  }
+  .sort-btn-all{
+    
+  }
+
+  .sort-btn{
+    margin: 2%;
+  }
+}
+
+@media (max-width: 375px) {
   .max500{
     font-size: 0.7em;
   }
@@ -302,11 +314,12 @@ h1 {
     font-size: 0.5em;
   }
   .sort-btn{
-    width: 140px;
+    width: 145px;
     margin: 10px;
   }
   .sort-btn-all{
-    width: 250px;
+    width: 87%;
+    margin-left: 3%;
   }
   .para-uber{
     font-size: 0.7;
@@ -319,12 +332,7 @@ h1 {
  
 }
 
-@media (min-width: 576px) {
-  .para-uber{
-    font-size: 1.5em;
-  }
 
-}
 
 /***lightbox for munzen page***/
 .gallerys{
@@ -633,12 +641,10 @@ h1 {
 
 @media (max-width: 576px){
   .card{
-      width: 12rem;
+      width: 18rem;
       margin: 0;
   }
-  .card-text{
-      display: none;
-  }
+ 
   /****menu in footer will be hidden by Mobile size****/
   .footer-menu{
     display: none;
@@ -789,5 +795,4 @@ h1 {
 .html {width: 40%; background-color: #8a0795;} /* purple */
 
 /***********************************************here end Accordion and my skills style*************************************************/
-
 
